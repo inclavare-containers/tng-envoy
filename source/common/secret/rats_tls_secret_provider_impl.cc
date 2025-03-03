@@ -23,7 +23,7 @@
 
 constexpr int kMaxNumsOfPolicyIds = 16;
 constexpr int kCertUpdateIntervalSecond = 60 * 60; // 1 hour
-constexpr int kRatsRsCreateCertTimeoutSecond = 30;
+constexpr int kRatsRsCreateCertTimeoutSecond = 120; // 2 min
 
 namespace Envoy {
 namespace Secret {
